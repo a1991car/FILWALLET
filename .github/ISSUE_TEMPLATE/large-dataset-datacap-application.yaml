@@ -1,0 +1,142 @@
+name: Large Dataset Datacap Application
+description: Clients should use this application form to request a DataCap allocation via a LDN for a dataset
+title: "[DataCap Application] <Organization> - <Project Name>"
+labels: 'application, Phase: Diligence'
+body:
+- type: markdown
+  attributes:
+    value: |
+      # Large Dataset Notary Application
+      To apply for DataCap to onboard your dataset to Filecoin, please fill out the following form
+- type: markdown
+  attributes:
+    value: |
+      # FILWALLET
+- type: textarea
+  attributes:
+    label: Can you introduce yourself?
+    render: text
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: What is your official website or media?
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: What industry does your company belong to?
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Can you provide a data case ?
+    render: text
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Is your data sensitive or special?
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: How do you verify your identity?
+    render: text
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Is the data public and searchable?
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Provide the F1 address accepting DataCap.
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Request the total amount of DataCap.
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Amount of data your company
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: How much DataCap is allocated per week?
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Which region do you plan to use DataCap in?
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: How many SPs do you plan to allocate?
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: List the cooperating SPs.
+    render: text
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Do the SPs support retrieval?
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: How long is the data expected to be stored?
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: What is the retrieval frequency of the data?
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Do you accept SPs using VPN, and how will you verify?
+    render: text
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: How did you find out about us?
+    render: text
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Has the data been stored on the Filecoin network before?
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: How will you handle the data?
+    render: text
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: List the data processing platforms.
+    render: text
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Do you need us to provide assistance?
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Can you confirm that you will follow the Fil+ guideline
+  validations:
+    required: true
